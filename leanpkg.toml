@@ -3,3 +3,7 @@ name = "lean-example"
 version = "0.1"
 lean_version = "leanprover-community/lean:3.50.3"
 path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "cc8e88c7c8c7bc80f91f84d11adb584bf9bd658f"}
+ProofNet = {git = "https://github.com/zhangir-azerbayev/ProofNet", rev = "e8645aa830ce17c33a8b8482a8195f0f97d6a74a"}
